@@ -1,0 +1,9 @@
+{
+  "name": "GitHub Codespaces Example",
+  "dockerFile": "Dockerfile",
+  "extensions": ["ms-vscode.cpptools"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "bash ./.devcontainer/init.sh"
+}
