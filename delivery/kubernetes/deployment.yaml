@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: delivery
-          image: username/delivery:latest
+          image: kimkyusoo/delivery:v1115
           ports:
             - containerPort: 8080
           readinessProbe:
